@@ -237,22 +237,22 @@
     position: absolute;
     margin: 0 auto;
     transform: rotate(-90deg);
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
     background-image: radial-gradient(ellipse at 100% 0, transparent 0, transparent 350px, #14161c 0);
-    bottom: -195px;
-    right: 400px;
+    bottom: -70px;
+    right: 350px;
   }
 
   .triangleRight{
       position: absolute;
       margin: 0 auto;
       transform: rotate(360deg);
-      width: 500px;
+      width: 350px;
       height: 400px;
       background-image: radial-gradient(ellipse at 100% 0, transparent 0, transparent 350px, #14161c 0);
-      bottom: -200px;
-      right:-100px;
+      bottom: -70px;
+      right:20px;
   }
 
 
