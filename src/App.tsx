@@ -1,16 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
-import Footer from './components/Footer';
+import AppRouter from './components/AppRouter';
 
 const App: React.FC = () => {
-  return (
-    <>
-      <Header />
-      <Main/>
-      <Footer/>
-    </>
-  );
+  return <AppRouter />;
 };
 
 export default App;

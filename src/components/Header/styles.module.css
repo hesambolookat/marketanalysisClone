@@ -1,35 +1,38 @@
 * {
     box-sizing: border-box;
-  }
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: GillSans !important;
+    direction: ltr;
+  } 
+  
   
   .header {
     background-color: #1C39BB;
+    width: 100%;
+
   }
   
   .headerContainer {
+    max-width: 1216px;
+    margin: 0 auto !important; 
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     flex-wrap:wrap ;
-    max-height: 100%;
   }
   
   .headerLogo {
-    padding: 5rem 6rem 3rem 4rem;
+    padding: 48px 8px 8px 8px;
     border-radius: 0 0 8px 8px;
     background-color: white;
-    width: 95px;
-    height: 64px;
-    display: flex;
-    align-items: center;
-    margin-left: 9rem;
-    margin-top: -1rem;
+    width: 156px;
+    height: 120px;
   }
   
   .headerLogo img {
     height: 60px;
-    margin-left: -3rem;
   }
   
   .headerNav {
@@ -37,30 +40,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 8rem;
   }
   
-  .headerButton {
-    margin-left: 1rem;
-    padding: 10px 15px;
-    border: none;
-    background-color: white;
-    color: #1C39BB;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .headerButtonLogin {
-    margin-left: 1rem;
-    padding: 10px 15px;
-    border: none;
-    background-color: #1C39BB;
-    color: white;
-    border-style: solid;
-    border-radius: 4px;
-    border-color: white;
-    cursor: pointer;
-  }
   
   .headerDropdown {
     position: relative;
@@ -117,35 +98,39 @@
 
   .paternCont{
     background-image: url("https://www.new-marketanalysis.com/imgs/hero/pattern4-high.svg");
-    background-size: 70%;
+    background-size: 80%;
+    
+
+  }
+  .patern{
+    max-width: 1216px;
+    margin: 0 auto !important; 
+
 
   }
   
   .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    background-image: -webkit-linear-gradient(118deg, transparent 40%, #1c39bb 55%);  
+    align-items: center;    
+    background-image: -webkit-radial-gradient(50% 50%, #1c39bb 46%, transparent 67%); 
   }
   
   .text {
-    width:90%;
-    font-size: 20px;
+    position: relative;
+    width:60%;
+    height: auto;
+    font-size: 18px;
     line-height: 56px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: 0 10px;
+    padding-bottom: 200px;
+    transition: all 3s;
+    gap: 20px;
 
   }
   
   .text h1 {
     color: white;
-    margin-left: 6rem;
-    margin-top: -8rem;
     margin-block-end: 1em;
-    margin-inline-start: 3em;
     margin-inline-end: 2em;    
   }
 
@@ -210,24 +195,17 @@
   
   
   .text p {
-    font-size: 18px;
-    font-style: normal;
+    font-size: 17.3px;
     font-weight: 400;
     line-height: 24px;
     color: var(--neutral-caption,#c1c2c5)!important;
-    display: block;
-    margin-block-end: 1em;
-    margin-inline-start: 7em;
-    margin-inline-end: 2em;
-    unicode-bidi: isolate; 
+    padding-top: 20px;
   }
   
-  .tryButton {
-    margin-top: 1rem;
-  }
+  
   
   .mobileMockup {
-    width:65%;
+    width:40%;
     height: auto;
     display: flex;
     justify-content: flex-end;
@@ -241,13 +219,14 @@
     position: absolute;
     max-width: 100%;
     bottom: 0;
-    right: 35%;
-    z-index: 2;  
+    right: 220px;
+    z-index: 2; 
+    transition: all 2s; 
   }
   
   .triangleCont{
     position: absolute;
-    bottom: -1px;
+    top: 530px;
     height: auto !important;
     right: 0;
     left: unset;
@@ -259,21 +238,21 @@
     margin: 0 auto;
     transform: rotate(-90deg);
     width: 400px;
-    height: 400px;
+    height: 500px;
     background-image: radial-gradient(ellipse at 100% 0, transparent 0, transparent 350px, #14161c 0);
-    bottom: -81px;
-    right: 320px;
+    bottom: -195px;
+    right: 400px;
   }
 
   .triangleRight{
       position: absolute;
       margin: 0 auto;
       transform: rotate(360deg);
-      width: 400px;
+      width: 500px;
       height: 400px;
       background-image: radial-gradient(ellipse at 100% 0, transparent 0, transparent 350px, #14161c 0);
-      bottom: -81px;
-      right:0;
+      bottom: -200px;
+      right:-100px;
   }
 
 
@@ -328,7 +307,11 @@
       width: 16px;
       height: 16px;
     }
-    
+    .btnContainer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
     .headerButton{
       padding: 10px 2px;
       font-size: 14px;
@@ -340,6 +323,7 @@
       padding: 10px 2px;
       font-size: 14px;
       margin-top: 0.5rem;
+      
     }
     
     .paternCont {

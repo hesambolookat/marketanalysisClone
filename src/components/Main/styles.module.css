@@ -1,27 +1,31 @@
 /* تنظیمات پایه */
 body {
+  
   background-color: #14161c;
   margin: 0;
   padding: 0;
   color: white;
-  font-family: Arial, sans-serif;
+  font-family: GillSans !important;
 }
 
 /* تنظیمات کانتینر اصلی */
 .container {
+  max-width: 1216px;
+  margin: 0 auto !important; 
   box-sizing: border-box;
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
   transition: all 2s;
 }
 
 /* تنظیمات عنوان‌ها */
 .title {
-  font-size: 24px;
+  max-width: 1216px;
+  margin: 0 auto !important; 
+  font-size: 22px;
   font-weight: 500;
   line-height: 29px;
   margin-bottom: 16px;
@@ -32,9 +36,8 @@ body {
 .cards {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  width: 80%;
   height: auto;
   margin-bottom: 2rem;
 }
@@ -45,10 +48,9 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  max-width: 325px;
+  max-width: 355px;
   width: auto;
-  margin: 0 5%;
-  transition: all 2s;
+  /* transition: all 2s; */
   padding-top: 80px;
 }
 
@@ -79,10 +81,11 @@ body {
 .videoSection {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   transition: all 2s;
   padding-top: 80px;
+  gap: 40px;
 }
 
 .videoContainer {
@@ -91,19 +94,16 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: stretch;
-  width: 100%;
   height: auto;
   margin-bottom: 63px;
 }
 
 .videoPlayer {
-  width: 90%;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 10rem;
 }
 
 .videoPlayer video {
@@ -126,22 +126,27 @@ body {
   z-index: -1;
 }
 
-/* تنظیمات توضیحات */
 .descriptionCont {
   position: relative;
   z-index: 1;
-  justify-content: center;
-  align-items: flex-start;
-  margin: auto;
-  padding: 0 4rem;
+  width: 40%;
 }
 
 .description {
+  font-size: 15.7px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  opacity: .6;
+  
+}
+.descriptionSecond{
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
   opacity: .6;
+  margin: 30px 20px 30px 0;
 }
 
 /* تنظیمات لیست توضیحات */
@@ -149,15 +154,15 @@ body {
   display: flex;
   align-items: center;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 22px;
-  margin-bottom: 10px;
+  margin: 30px 20px 30px 0;
 }
 
 .descriptionLi img {
   margin-right: 10px;
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
 }
 
 

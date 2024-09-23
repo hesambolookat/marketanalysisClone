@@ -1,0 +1,19 @@
+.button {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-style: solid;
+  margin: 4px ;
+}
+
+.login {
+  background-color: transparent !important;
+  color: white;
+  border: 1px solid #fff !important;
+}
+
+.signup {
+  background-color: white;
+  color: #1C39BB;
+}

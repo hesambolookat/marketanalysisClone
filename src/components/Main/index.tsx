@@ -38,7 +38,7 @@ const Main: React.FC = () => {
           <p className={styles.description}>
             NEW, a novel AI model that uses cutting-edge machine learning techniques to predict Iron ore prices. NEW is revolutionizing AI technology in business at all levels. Your AI partner that predicts Iron ore prices for develop and transfer your business.
           </p>
-          <p className={styles.description}>Here are some advantages choosing NEW as your AI partner:</p>
+          <p className={styles.descriptionSecond}>Here are some advantages choosing NEW as your AI partner:</p>
           <div className={styles.descriptionLi}>
             <img src={arrowRight} alt="arrowRight" />
             <p>
@@ -56,7 +56,6 @@ const Main: React.FC = () => {
         </div>
 
         <div className={styles.videoContainer}>
-          {/* Pattern Container */}
         <div className={styles.patternContLtr}></div>
           <div className={styles.videoPlayer}>
             <video controls>
