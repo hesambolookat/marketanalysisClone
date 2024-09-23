@@ -79,6 +79,7 @@ body {
 
 /* تنظیمات بخش ویدیو */
 .videoSection {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -86,10 +87,10 @@ body {
   transition: all 2s;
   padding-top: 80px;
   gap: 40px;
+  background-image: linear-gradient(transparent, #000);
 }
 
 .videoContainer {
-  position: relative;
   box-sizing: border-box;
   display: flex;
   justify-content: flex-start;
@@ -117,18 +118,17 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  bottom: 50px;
-  right: 70px;
+  bottom: 120px;
+  left: 150px;  
   background-position: 100% 0;
   background-image: url("https://www.new-marketanalysis.com/imgs/hero/patterns/pattern3-ltr.png");
-  background-repeat: repeat;
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 77%;
   z-index: -1;
 }
 
 .descriptionCont {
   position: relative;
-  z-index: 1;
   width: 40%;
 }
 

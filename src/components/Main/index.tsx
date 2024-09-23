@@ -31,41 +31,43 @@ const Main: React.FC = () => {
 
       <p className={styles.title}>Video on NEW</p>
 
+      
       <div className={styles.videoSection}>
-        
+            <div className={styles.patternContLtr}></div>
 
-        <div className={styles.descriptionCont}>
-          <p className={styles.description}>
-            NEW, a novel AI model that uses cutting-edge machine learning techniques to predict Iron ore prices. NEW is revolutionizing AI technology in business at all levels. Your AI partner that predicts Iron ore prices for develop and transfer your business.
-          </p>
-          <p className={styles.descriptionSecond}>Here are some advantages choosing NEW as your AI partner:</p>
-          <div className={styles.descriptionLi}>
-            <img src={arrowRight} alt="arrowRight" />
-            <p>
-              Alongside AL, ML statistical learning and historical data, we used the strong background of Dr. Keyvan Jafari Tehrani in mineral trade and business to model the market behaviors.
-            </p>
-          </div>
-          <div className={styles.descriptionLi}>
-            <img src={arrowRight} alt="arrowRight" />
-            <p>NEW is adjusted to the market movements, therefore, it will help you grow your business by finding opportunities and managing risks.</p>
-          </div>
-          <div className={styles.descriptionLi}>
-            <img src={arrowRight} alt="arrowRight" />
-            <p>NEW will warn you if there is a risk of sudden fluctuation.</p>
-          </div>
-        </div>
+            <div className={styles.descriptionCont}>
+              <p className={styles.description}>
+                NEW, a novel AI model that uses cutting-edge machine learning techniques to predict Iron ore prices. NEW is revolutionizing AI technology in business at all levels. Your AI partner that predicts Iron ore prices for develop and transfer your business.
+              </p>
+              <p className={styles.descriptionSecond}>Here are some advantages choosing NEW as your AI partner:</p>
+              <div className={styles.descriptionLi}>
+                <img src={arrowRight} alt="arrowRight" />
+                <p>
+                  Alongside AL, ML statistical learning and historical data, we used the strong background of Dr. Keyvan Jafari Tehrani in mineral trade and business to model the market behaviors.
+                </p>
+              </div>
+              <div className={styles.descriptionLi}>
+                <img src={arrowRight} alt="arrowRight" />
+                <p>NEW is adjusted to the market movements, therefore, it will help you grow your business by finding opportunities and managing risks.</p>
+              </div>
+              <div className={styles.descriptionLi}>
+                <img src={arrowRight} alt="arrowRight" />
+                <p>NEW will warn you if there is a risk of sudden fluctuation.</p>
+              </div>
+            </div>
 
-        <div className={styles.videoContainer}>
-        <div className={styles.patternContLtr}></div>
-          <div className={styles.videoPlayer}>
-            <video controls>
-              <source src={sample} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            <p className={styles.description}>Please click on this video to see more.</p>
+          
+            <div className={styles.videoContainer}>
+            
+              <div className={styles.videoPlayer}>
+                <video controls>
+                  <source src={sample} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <p className={styles.description}>Please click on this video to see more.</p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
     </div>
   );
 };

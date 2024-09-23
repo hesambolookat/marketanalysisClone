@@ -98,8 +98,8 @@
 
   .paternCont{
     background-image: url("https://www.new-marketanalysis.com/imgs/hero/pattern4-high.svg");
-    background-size: 80%;
-    
+    background-size: 70%;
+    z-index: -1;
 
   }
   .patern{
@@ -113,7 +113,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;    
-    background-image: -webkit-radial-gradient(50% 50%, #1c39bb 46%, transparent 67%); 
+    background-image: -webkit-linear-gradient(118deg, transparent 40%, #1c39bb 55%);
   }
   
   .text {
